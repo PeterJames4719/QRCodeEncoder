@@ -1,0 +1,27 @@
+{
+  "name": "QRCodeEncoder",
+  "version": "3.4.2",
+  "summary": "A tool to create QR code from string for objc",
+  "description": "A tool to create QR code from string for objc",
+  "homepage": "https://github.com/PeterJames4719/QRCodeEncoder",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PeterJames4719": "daasan123@163.com"
+  },
+  "source": {
+    "git": "https://github.com/PeterJames4719/QRCodeEncoder.git",
+    "tag": "3.4.2"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QRCodeEncoder/Classes/**/*",
+  "dependencies": {
+    "libqrencode": [
+      "3.4.2"
+    ]
+  }
+}

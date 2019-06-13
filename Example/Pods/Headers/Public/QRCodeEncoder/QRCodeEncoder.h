@@ -1,0 +1,1 @@
+../../../../../QRCodeEncoder/Classes/QRCodeEncoder.h

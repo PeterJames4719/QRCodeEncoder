@@ -1,0 +1,23 @@
+PODS:
+  - libqrencode (3.4.2)
+  - QRCodeEncoder (3.4.2):
+    - libqrencode (= 3.4.2)
+
+DEPENDENCIES:
+  - QRCodeEncoder (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - libqrencode
+
+EXTERNAL SOURCES:
+  QRCodeEncoder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  libqrencode: 43dc34b89af83ea4b07c409cd8e09c87aa3a1c9f
+  QRCodeEncoder: f6379477a0d10c3ff08805601e4dcb345adcfc02
+
+PODFILE CHECKSUM: f488ebbe421ae97c2dae9b0d583d311fc99c51d7
+
+COCOAPODS: 1.7.1

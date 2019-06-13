@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QRCodeEncoder'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of QRCodeEncoder.'
+  s.version          = '3.4.2'
+  s.summary          = 'A tool to create QR code from string for objc'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A tool to create QR code from string for objc
                        DESC
 
   s.homepage         = 'https://github.com/PeterJames4719/QRCodeEncoder'
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'libqrencode', '3.4.2'
 end
