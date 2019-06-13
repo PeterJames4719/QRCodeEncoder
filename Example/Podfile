@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'QRCodeEncoder_Example' do
+  pod 'QRCodeEncoder', :path => '../'
+
+  target 'QRCodeEncoder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
